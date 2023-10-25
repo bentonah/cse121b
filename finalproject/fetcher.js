@@ -3,7 +3,7 @@ export async function fetchMeme() {
     const data = await response.json();
     const memes = data.data.memes;
     const randomIndex = Math.floor(Math.random() * memes.length);
-    return [memes[randomIndex].url]; // Wrap the URL in an array
+    return [memes[randomIndex].url];
 }
 
 export async function fetchInspirationalQuote() {
