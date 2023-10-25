@@ -1,4 +1,3 @@
-// main.js
 import { fetchMeme, fetchInspirationalQuote } from './fetcher.js';
 
 const funnyButton = document.getElementById("funnyButton");
